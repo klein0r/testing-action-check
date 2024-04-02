@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: ioBroker/testing-action-check@v1
         with:
-          node-version: "14.x" # This should be LTS
+          node-version: "20.x" # This should be LTS
           # type-checking: 'true' # optional
           # lint: 'true' # optional
 
